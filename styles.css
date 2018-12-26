@@ -1,0 +1,161 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+	 .nav{ /* this entire for navigation*/
+	 	background:white;
+	 	color:black;
+	 	height: 70px;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
+        order: -1;
+	 	display: flex;
+	 	flex-wrap:wrap;
+        align-items: center;
+        
+	 }
+
+.nav-title{ /* tittle*/
+    width: 30%;
+    background:white;
+    padding: 16px 40px;
+    text-align: center;
+    color: #000;
+}
+.nav-menu{
+    width: 70%;
+}
+.nav-menu ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-menu ul li{
+    padding: 10px 20px;
+    color: black;
+    font-size: 20px;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.nav-menu ul li:hover{ /*hover ( changing the color*/
+    color: rgba(226, 25, 25, 0.788);
+}
+
+/*style for responsive menu for tablets, Ipads*/
+
+@media screen and ( min-width:768px) and ( max-width:1024px){
+    
+}
+    
+ .nav{
+       height: auto;
+   }
+   .nav .nav-title{
+       text-align: left;
+       width: 100%;
+   }
+
+   .nav .nav-menu{
+       width: 100%;
+   }
+   .nav .nav-menu ul{
+       justify-content: space-around;
+       text-align: center;
+   }
+   .nav .nav-menu ul li{
+       width: 30%;
+       padding: 10px 0px;
+       text-align: center;
+       font-size: 16px;
+    
+   }
+   .footer{
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+   }
+   .article{
+    width:50%;
+    text-align: left;
+}
+
+ .container{
+    width: 50%;
+    text-align: left;
+ }
+
+ .video{
+    width: 100%;
+ }
+ 
+ .section{
+ width: 100%;
+ text-align: left;
+ }
+
+/* end of the media queries */
+.footer{
+background:black;
+bottom: 0;
+left: 0;
+position: fixed;
+right: 0;
+color:white;
+}
+
+.container{ /* glossary page*/
+width: 100%;
+height: 500px;
+overflow-y:auto;
+padding: 0px 30px 0px 15px;
+columns: 2;
+flex-direction: row;
+text-align: left;
+}
+
+.article{ /*jobs page*/
+width: 100%;
+height: 500px;
+overflow-y:auto;
+padding: 0px 30px 0px 15px;
+text-align: left;
+flex-direction: row;
+
+}
+
+p{
+font-family: 'Open Sans Condensed', sans-serif;/* this font is used for paragraph*/
+font-family: 'Ubuntu', sans-serif;
+}
+
+li{
+font-family: 'Open Sans Condensed', sans-serif;/*this font is used for bullets point and navigation*/
+font-family: 'Ubuntu', sans-serif;
+}
+
+.article1{ /* this is used for tutorials page*/
+width: 100%;
+height: 400px;
+padding: 0px 30px 0px 15px;
+flex-direction: row;
+text-align: left;
+}
+
+.video{ /* this for video*/
+width: 70%;
+height:0%;
+flex-direction: row;
+text-align: center;
+
+}
+section{ /* this for reviews*/
+width: 100%;
+height: 500px;
+padding: 0px 30px 0px 15px;
+flex-direction:column;
+text-align:left;
+columns:1;
+}
+
