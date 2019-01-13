@@ -141,7 +141,7 @@ flex-direction: row;
 text-align: left;
 font-size: 16px;
 margin-left: 5px;
-margin-bottom: 40px;
+margin-bottom: 50px;
 font-family: sans-serif;
 
 }
@@ -185,79 +185,17 @@ flex-direction: row;
 text-align: left;
 font-size: 16px; /* size of the text*/
 margin-left: 5px;
-margin-bottom: 40px;
-font-family: sans-serif;
+font-family: sans-serif;/*font fmaily*/
 }
 
-/* mobile phones, screen size= 481px to 767px */
+/* styles for mobile phones (min width:481px) (max-width:767px) */
 @media (min-width:481px) and (max-width:767px) {
-    
-    }
-    .nav{
-    text-align: center;
-    width: 100%;
-    justify-content: space-around;
-    flex-direction: row;
-    height: auto;
-    }
- 
-    .nav .nav-menu{
-        width: 100%;
-    }
-    .nav .nav-menu ul{
-        justify-content: space-around;
-        text-align: left;
-    }
-    .nav .nav-menu ul li{
-        width: 100%;
-        padding: 10px 0px;
-        text-align:left;
-        font-size: 16px;
-     
-    }
-    .footer{ /* styles for footer*/
-     justify-content: space-around;
-     text-align: center;
-     width: 100%;
- 
-    }
-    .article{ /* this is used for tutorials page*/
-     width:100%;
-     text-align: left;
-     flex-direction: row;
-     height: auto;
-     
- }
- 
-  .glossary{ /* glossary page*/
-     width: 100%;
-     text-align: left;
-     flex-direction: row;
-     height: auto;
-  }
- 
-  .video{  /* this for video*/
-     width: 100%;
-  }
+.nav,.nav-menu,.nav .nav-menu ul, .nav .nav-menu ul li,.footer,.article,.article1,.box,.footer,.glossary,.home.section.video{
+font-size: 1.20rem;
+height: auto;
+font-family: sans-serif;
+flex-direction: row;
+}
+}
+
   
-  .section{ /* this for reviews*/
-  width: 100%;
-  text-align: left;
-  flex-direction: row;
-  height: auto;
-  }
- 
-  .box{ /* this for job page*/
- width: 100%;
- text-align: left;
- flex-direction: row;
- height: auto;
-  }
-  .home{ /* this for home page*/
- width: 100%;
- text-align: left;
- height: auto;
- flex-direction: row;
-  height: auto;
-  }
-  /* end of the media queries */
