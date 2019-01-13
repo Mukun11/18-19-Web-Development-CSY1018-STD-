@@ -198,6 +198,7 @@ font-family: sans-serif;
     width: 100%;
     justify-content: space-around;
     flex-direction: row;
+    height: auto;
     }
  
     .nav .nav-menu{
@@ -223,6 +224,8 @@ font-family: sans-serif;
     .article{ /* this is used for tutorials page*/
      width:100%;
      text-align: left;
+     flex-direction: row;
+     height: auto;
      
  }
  
@@ -230,6 +233,7 @@ font-family: sans-serif;
      width: 100%;
      text-align: left;
      flex-direction: row;
+     height: auto;
   }
  
   .video{  /* this for video*/
@@ -240,15 +244,20 @@ font-family: sans-serif;
   width: 100%;
   text-align: left;
   flex-direction: row;
+  height: auto;
   }
  
   .box{ /* this for job page*/
  width: 100%;
  text-align: left;
+ flex-direction: row;
+ height: auto;
   }
   .home{ /* this for home page*/
  width: 100%;
  text-align: left;
  height: auto;
+ flex-direction: row;
+  height: auto;
   }
   /* end of the media queries */
